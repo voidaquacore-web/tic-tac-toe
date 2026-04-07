@@ -1,8 +1,13 @@
 body {
     background: #020617;
     color: aliceblue;
+    max-height: 100vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .header {
@@ -25,8 +30,7 @@ body {
     background: black;
     cursor: pointer;
     border: 2px solid #00f5d4;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 .x {
@@ -37,4 +41,15 @@ body {
 .o {
    font-size: 80px;
    color: greenyellow
+}
+
+.reset-board {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+    color: #4cc9f0;
+    background: #0f172a;
+    border: none;
 }
