@@ -11,8 +11,11 @@ body {
 
 #board {
     display: grid;
-    grid-template-columns: repeat(3, 100px);
+    grid-template-columns: repeat(3, 0fr);
     gap: 10px;
+    width: 90vw;
+    max-width: 400px;
+    margin: auto;
     justify-content: center;
 }
 
@@ -20,8 +23,18 @@ body {
     width: 100px;
     height: 100px;
     background: black;
-    cursor: crosshair;
+    cursor: pointer;
     border: 2px solid #00f5d4;
     justify-content: center;
     align-items: center;
+}
+
+.x {
+    font-size: 80px;
+    color: gray;
+}
+
+.o {
+   font-size: 80px;
+   color: greenyellow
 }
